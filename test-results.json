@@ -1,0 +1,99 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/phavineenoi-ay/Documents/GitHub/officemate-en-playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "/Users/phavineenoi-ay/Documents/GitHub/officemate-en-playwright",
+        "testIgnore": [],
+        "testMatch": [
+          "officemate_search.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "/Users/phavineenoi-ay/Documents/GitHub/officemate-en-playwright/node_modules/experimental-allure-playwright/dist/index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "/Users/phavineenoi-ay/Documents/GitHub/officemate-en-playwright",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.19.2",
+    "workers": 4,
+    "webServer": null,
+    "__testGroupsCount": 1
+  },
+  "suites": [
+    {
+      "title": "officemate_search.test.ts",
+      "file": "officemate_search.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "my test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3153,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/phavineenoi-ay/Documents/GitHub/officemate-en-playwright/test-results/officemate_search-my-test/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "officemate_search.test.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

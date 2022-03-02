@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "run_playwright_test": "npx playwright test --reporter=html && npx playwright show-report",
+    "test": "npx playwright test",
+    "test-us": "npx playwright test --update-snapshots"
+  },
+  "devDependencies": {
+    "@playwright/test": "~1.19.2",
+    "experimental-allure-playwright": "~0.0.3",
+    "playwright": "1.17.1",
+    "playwright-cli": "~0.180.0"
+  }
+}
