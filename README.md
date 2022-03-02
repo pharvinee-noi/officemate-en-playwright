@@ -6,14 +6,19 @@ Playwright is a framework for Web Testing and Automation. It allows testing Chro
 ```Shell
 $ npm i -D @playwright/test
 ```
-### install supported browsers
+### Install supported browsers
 ```Shell
 $ npm install npx
 ```
 ```Shell
 $ npx playwright install
 ```
+### Install Generate HTML Report (If can't Executing task)
+```Shell
+npm i -D allure-commandline
+npm i -D experimental-allure-playwright
+```
 ### Executing task
 ```Shell
-$ npm run report
+$ npm run run_playwright_test
 ```
